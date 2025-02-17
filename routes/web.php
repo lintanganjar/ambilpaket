@@ -91,6 +91,36 @@ Route::post('/logout', function () {
     return redirect()->route('auth'); // Mengarahkan ke halaman login
 })->name('logout');
 
+Route::name('auth')->get('auth', function () {
+    return view('pages.login-page');
+});
+
+    Route::name('customer')->get('/', function () {
+        return view('pages.landing.customer-landing');
+    });
+    Route::name('delivery-price')->get('/price', function () {
+        return view('pages.landing.cek-tarif');
+    });
+    Route::name('about')->get('/about', function () {
+        return view('pages.landing.about');
+    });
+    Route::name('faq')->get('/faq', function () {
+        return view('pages.landing.faq');
+    });
+    Route::name('faq-result')->get('/faq-result', function () {
+        return view('pages.landing.faq-result');
+    });
+    Route::name('contact')->get('/contact', function () {
+        return view('pages.landing.contact');
+    });
+    Route::name('umkm')->get('/umkm', function () {
+        return view('pages.landing.umkm-landing');
+    });
+    Route::name('agen')->get('/agen', function () {
+        return view('pages.landing.agen-landing');
+    });
+
+
 //     // <<<------- END Finance ------->>>
 Route::post('/login', [App\Http\Controllers\API\AuthController::class, 'login'])->name('login');
     // <<<------- Agen ------->>>

@@ -36,20 +36,20 @@
         <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
             <ul class="flex flex-col items-center mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                    <a href="{{ route('landing-page.customer') }}"
-                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('landing-page.customer')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
+                    <a href="{{ route('customer') }}"
+                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('customer')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
                         Customer
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('landing-page.umkm') }}"
-                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('landing-page.umkm')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
+                    <a href="{{ route('umkm') }}"
+                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('umkm')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
                         UMKM
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('landing-page.agen') }}"
-                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('landing-page.agen')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
+                    <a href="{{ route('agen') }}"
+                        class="relative block py-2 pl-3 pr-4 lg:p-0 @if (Route::is('agen')) text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-100 @else text-gray-700 hover:text-customprimary-700 lg:before:content-[''] lg:before:absolute lg:before:bottom-[-32px] lg:before:left-0 lg:before:w-full lg:before:h-[3px] lg:before:bg-customprimary-700 lg:before:rounded-lg lg:before:opacity-0 hover:lg:before:opacity-100 lg:before:transition-opacity lg:before:duration-300 @endif">
                         Agen
                     </a>
                 </li>
