@@ -1,0 +1,35 @@
+"id","name","created_at","updated_at"
+"1","Bali",NULL,NULL
+"2","Bangka Belitung",NULL,NULL
+"3","Banten",NULL,NULL
+"4","Bengkulu",NULL,NULL
+"5","DI Yogyakarta",NULL,NULL
+"6","DKI Jakarta",NULL,NULL
+"7","Gorontalo",NULL,NULL
+"8","Jambi",NULL,NULL
+"9","Jawa Barat",NULL,NULL
+"10","Jawa Tengah",NULL,NULL
+"11","Jawa Timur",NULL,NULL
+"12","Kalimantan Barat",NULL,NULL
+"13","Kalimantan Selatan",NULL,NULL
+"14","Kalimantan Tengah",NULL,NULL
+"15","Kalimantan Timur",NULL,NULL
+"16","Kalimantan Utara",NULL,NULL
+"17","Kepulauan Riau",NULL,NULL
+"18","Lampung",NULL,NULL
+"19","Maluku",NULL,NULL
+"20","Maluku Utara",NULL,NULL
+"21","Nanggroe Aceh Darussalam (NAD)",NULL,NULL
+"22","Nusa Tenggara Barat (NTB)",NULL,NULL
+"23","Nusa Tenggara Timur (NTT)",NULL,NULL
+"24","Papua",NULL,NULL
+"25","Papua Barat",NULL,NULL
+"26","Riau",NULL,NULL
+"27","Sulawesi Barat",NULL,NULL
+"28","Sulawesi Selatan",NULL,NULL
+"29","Sulawesi Tengah",NULL,NULL
+"30","Sulawesi Tenggara",NULL,NULL
+"31","Sulawesi Utara",NULL,NULL
+"32","Sumatera Barat",NULL,NULL
+"33","Sumatera Selatan",NULL,NULL
+"34","Sumatera Utara",NULL,NULL
