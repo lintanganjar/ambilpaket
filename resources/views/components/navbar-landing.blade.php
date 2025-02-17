@@ -1,6 +1,6 @@
 <nav class="fixed z-50 w-full bg-white border-gray-200 px-4 lg:px-6 py-6 dark:bg-gray-800">
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
-        <a href="https://flowbite.com" class="flex items-center">
+        <a href="" class="flex items-center">
             <img src="{{ asset('static/images/ambilpaket.png') }}" class="mr-1 h-10" alt="AmbilPaket Logo" />
             <span class="text-base font-extrabold whitespace-nowrap text-customprimary-500 dark:text-white uppercase">
                 AmbilPaket
