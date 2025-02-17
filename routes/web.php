@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 // Route untuk praktik halaman index dan subhalaman
 // Route::name('index-practice')->get('/', function () {
@@ -84,6 +85,12 @@ use Illuminate\Http\Request;
 //             Route::get('/declineCourierWithdrawal/{id}', 'declineCourierWithdrawal')->name('declineCourierWithdrawal');
 //         }); // Feature Courier
 //     });
+// Route untuk logout
+Route::post('/logout', function () {
+    Auth::logout(); // Melakukan logout
+    return redirect()->route('auth'); // Mengarahkan ke halaman login
+})->name('logout');
+
 //     // <<<------- END Finance ------->>>
 Route::post('/login', [App\Http\Controllers\API\AuthController::class, 'login'])->name('login');
     // <<<------- Agen ------->>>
