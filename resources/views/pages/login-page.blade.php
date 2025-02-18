@@ -90,19 +90,19 @@
 @endphp
 
 <body class="{{ $whiteBg ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800' }}">
-    <nav class="fixed z-50 w-full bg-transparent border-gray-200 px-4 lg:px-6 py-6 dark:bg-gray-800">
+    <nav class="fixed z-50 w-full bg-transparent border-gray-200 px-4 lg:px-6 py-6 ">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
-            <a href="https://flowbite.com" class="flex items-center">
+            <a href="{{route('customer')}}" class="flex items-center">
                 <img src="{{ asset('static/images/ambilpaket.png') }}" class="mr-1 h-12" alt="AmbilPaket Logo" />
-                {{-- <span class="self-center text-xl font-bold whitespace-nowrap dark:text-white">AmbilPaket</span> --}}
-                <span class="text-lg font-bold whitespace-nowrap text-white dark:text-white tracking-wide leading-none">
+               
+                <span class="text-lg font-bold whitespace-nowrap text-white tracking-wide leading-none">
                     AmbilPaket
                 </span>
             </a>
         </div>
     </nav>
     <div id="main-content"
-        class="relative w-full h-full overflow-y-auto overflow-x-hidden bg-gray-100 dark:bg-gray-900">
+        class="relative w-full h-full overflow-y-auto overflow-x-hidden bg-gray-100 ">
         <main>
             <section class="w-full bg-center bg-no-repeat bg-cover bg-blend-multiply bg-black/70"
                 style="background-image: url('{{ asset('static/images/hero3.jpeg') }}');">

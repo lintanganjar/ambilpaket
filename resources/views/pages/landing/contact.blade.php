@@ -27,10 +27,10 @@
     </section>
     {{-- END HERO SECTION --}}
 
-    <section class="bg-gray-100 dark:bg-gray-900">
+    <section class="bg-gray-100 ">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-2 py-6 lg:py-16">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400 mb-8">
-                <h1 class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl text-left font-extrabold tracking-tight text-gray-900 dark:text-white">Hubungi Kami!
+            <div class="text-gray-900 sm:text-lg mb-8">
+                <h1 class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl text-left font-extrabold tracking-tight text-gray-900 ">Hubungi Kami!
                 </h1>
                 <div class="hidden lg:block">
                     <p class="mb-8 text-base font-normal text-gray-900">Apakah Anda memiliki pertanyaan tentang produk kami? <br>
@@ -69,39 +69,39 @@
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                         </div>
                         <input type="text" id=""
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5  "
                             placeholder="Nama Lengkap">
                     </div>
                     <div class="relative mb-6">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                         </div>
                         <input type="text" id=""
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5   "
                             placeholder="Email">
                     </div>
                     <div class="relative mb-6">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                         </div>
                         <input type="text" id=""
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-4 p-2.5   "
                             placeholder="Nomor Handphone">
                     </div>
                     <div class="relative mb-6">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                         </div>
                         <textarea id="message" rows="4"
-                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500  "
                             placeholder="Pesan"></textarea>
                     </div>
                     <button type="submit"
-                        class="px-8 py-2.5 w-full lg:w-auto text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:outline-none focus:ring-customprimary-300 dark:bg-customprimary-600 dark:hover:bg-customprimary-700 dark:focus:ring-customprimary-900">
+                        class="px-8 py-2.5 w-full lg:w-auto text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:outline-none focus:ring-customprimary-300 ">
                         Kirim
                     </button>
                 </form>
             </div>
         </div>
     </section>
-    <section class="bg-gray-100 dark:bg-gray-900">
+    <section class="bg-gray-100 ">
         <div class="px-6 md:px-12 lg:px-20 xl:px-36 text-left py-6 lg:py-16">
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.994470313487!2d110.4067929747659!3d-7.790408992229499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a575d56935b97%3A0x2083067682590692!2sSeven%20Inc.!5e0!3m2!1sen!2sid!4v1733793912777!5m2!1sen!2sid" 

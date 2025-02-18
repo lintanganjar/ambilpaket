@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 @section('content')
-    <section class="bg-gradient-to-r from-[#FA523D] to-[#35383A] dark:bg-gray-900 mt-20">
+    <section class="bg-gradient-to-r from-[#FA523D] to-[#35383A]  mt-20">
         <div class="w-full px-6 md:px-12 lg:px-20 xl:px-36">
             <div class="py-20">
                 <p class="mb-3 text-lg font-normal text-gray-300 lg:text-xl"><i>Temukan pertanyaan anda di sini!</i></p>
@@ -16,11 +16,11 @@
                             </svg>
                             </div>
                             <input type="text" id="voice-search"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-customprimary-500 focus:border-customprimary-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-customprimary-500 dark:focus:border-customprimary-500"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-customprimary-500 focus:border-customprimary-500 block w-full ps-10 p-2.5  
                                 placeholder="Ketik pertanyaan anda" required />
                         </div>
                         <button type="submit"
-                            class="inline-flex items-center py-2.5 px-6 ms-2 text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-700 hover:bg-customprimary-900 focus:ring-4 focus:outline-none focus:ring-customprimary-300 dark:bg-customprimary-600 dark:hover:bg-customprimary-700 dark:focus:ring-customprimary-900">
+                            class="inline-flex items-center py-2.5 px-6 ms-2 text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-700 hover:bg-customprimary-900 focus:ring-4 focus:outline-none focus:ring-customprimary-300">
                             Cari
                         </button>
                     </div>
@@ -28,10 +28,10 @@
             </div>
         </div>
     </section>
-    <section class="bg-gray-100 dark:bg-gray-900">
+    <section class="bg-gray-100 ">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 py-8 mx-auto lg:py-16">
-            <div class="px-2 text-gray-900 sm:text-lg dark:text-gray-400">
-                <h2 class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl lg:text-left font-extrabold tracking-tight leading-none text-gray-900 dark:text-white">Bagaimana
+            <div class="px-2 text-gray-900 sm:text-lg ">
+                <h2 class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl lg:text-left font-extrabold tracking-tight leading-none text-gray-900 ">Bagaimana
                     cara daftar menjadi agen di AmbilPaket.com?</h2>
                 <p class="mb-4 text-sm md:text-base lg:text-left text-gray-500">
                     Pertama-tama, klik tombol "Daftar," pilih opsi "Agen," isi formulir pendaftaran, pilih paket yang
@@ -66,37 +66,37 @@
                     </button>
                 </div>
             </div>
-            <hr class="h-px mt-16 bg-gray-400 border-0 dark:bg-gray-700">
+            <hr class="h-px mt-16 bg-gray-400 border-0 ">
         </div>
     </section>
 
-    <section class="bg-gray-100 dark:bg-gray-900">
+    <section class="bg-gray-100 ">
         <div class="px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-8 lg:gap-16 py-8 mx-auto grid lg:grid-cols-2 items-start">
             <h1
                 class="col-span-2 text-left text-3xl font-semibold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
                 Artikel Terkait
             </h1>
             <div class="col-span-2 lg:col-span-1">
-                <a href="#" class="rounded-lg dark:bg-gray-800 flex flex-col ">
-                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bagaimana caranya agar
+                <a href="#" class="rounded-lg  flex flex-col ">
+                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Bagaimana caranya agar
                         merchant dapat kembali melakukan order?</h2>
                 </a>
             </div>
             <div class="col-span-2 lg:col-span-1">
-                <a href="#" class="rounded-lg dark:bg-gray-800 flex flex-col ">
-                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Adakah kemungkinan
+                <a href="#" class="rounded-lg flex flex-col ">
+                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Adakah kemungkinan
                         merchant tidak dapat membuat order?</h2>
                 </a>
             </div>
             <div class="col-span-2 lg:col-span-1">
-                <a href="#" class="rounded-lg dark:bg-gray-800 flex flex-col ">
-                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apa perbedaan antara
+                <a href="#" class="rounded-lg  flex flex-col ">
+                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Apa perbedaan antara
                         postpaid merchant dan prepaid merchant ketika membuat order COD?</h2>
                 </a>
             </div>
             <div class="col-span-2 lg:col-span-1">
-                <a href="#" class="rounded-lg dark:bg-gray-800 flex flex-col ">
-                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apakah ada invoice yang
+                <a href="#" class="rounded-lg  flex flex-col ">
+                    <h2 class="mx-2 lg:mx-8 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Apakah ada invoice yang
                         ditagihkan kepada merchant atas transaksi COD?</h2>
                 </a>
             </div>

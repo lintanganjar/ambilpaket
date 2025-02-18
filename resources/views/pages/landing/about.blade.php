@@ -40,14 +40,14 @@
     </section>
     {{-- END HERO SECTION --}}
 
-    <section class="bg-gray-100 dark:bg-gray-900">
+    <section class="bg-gray-100">
         <div
             class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3 py-6 lg:py-16">
             <img class="hidden lg:block h-full object-cover rounded-lg items-end"
                 src="{{ asset('static/images/about.png') }}" alt="office content 1">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-gray-900 sm:text-lg col-span-2">
                 <h1
-                    class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-4 mt-4 lg:mt-0 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900">
                     Telusuri Lebih Jauh
                     Tentang AmbilPaket: Eksplorasi Seru Layanan Penuh Kejutan!
                 </h1>
@@ -69,7 +69,7 @@
                     terjangkau.</p>
                 <div class="flex flex-col space-y-4 mt-6 lg:justify-start sm:flex-row sm:justify-center sm:space-y-0">
                     <a href="#"
-                        class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-normal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300">
                         Daftar Sekarang!
                     </a>
                 </div>

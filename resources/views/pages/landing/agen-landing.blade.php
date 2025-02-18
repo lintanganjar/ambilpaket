@@ -103,7 +103,7 @@
                 kesempatan untuk memperluas jaringan bisnismu!</p>
             <div class="flex flex-col space-y-4 mb-44 lg:justify-start sm:flex-row sm:justify-center sm:space-y-0">
                 <a href="#"
-                    class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 ">
                     Daftar Sekarang
                 </a>
             </div>
@@ -111,11 +111,11 @@
     </section>
     {{-- END HERO SECTION --}}
     {{-- ABOUT SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400">
+            <div class="text-gray-900 sm:text-lg ">
                 <h2
-                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 ">
                     Apa itu
                     AmbilPaket?</h2>
                 <p class="px-6 lg:px-0 text-center text-sm md:text-base">
@@ -127,20 +127,20 @@
     </section>
     {{-- END ABOUT SECTION --}}
     {{-- PRICING SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400">
+            <div class="text-gray-900 sm:text-lg ">
                 <h2
-                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 ">
                     Paket yang Kami Tawarkan untuk Anda!
                 </h2>
                 <div class="w-full py-8 mx-auto grid lg:grid-cols-4 gap-4 lg:gap-0">
                     @if (is_array($pricingList) || is_object($pricingList))
                         @foreach ($pricingList as $plan)
                             <a href="#{{ strtolower($plan->name) }}"
-                                class="relative w-full p-4 bg-white border-4 border-gray-400 rounded-xl shadow hover:scale-105 transform transition-all sm:p-8 dark:bg-gray-800 dark:border-gray-700 group">
-                                <h5 class="text-xl font-medium text-gray-900 dark:text-gray-400">{{ $plan->name }}</h5>
-                                <div class="flex items-baseline text-gray-900 dark:text-white mb-4">
+                                class="relative w-full p-4 bg-white border-4 border-gray-400 rounded-xl shadow hover:scale-105 transform transition-all sm:p-8  group">
+                                <h5 class="text-xl font-medium text-gray-900 ">{{ $plan->name }}</h5>
+                                <div class="flex items-baseline text-gray-900  mb-4">
                                     <span
                                         class="text-4xl font-bold tracking-tight">{{ number_format($plan->price / 1000, 0, ',', '.') }}K</span>
                                 </div>
@@ -148,7 +148,7 @@
                                     @if (!empty($plan->other_benefits) && is_array($plan->other_benefits))
                                         @foreach ($plan->other_benefits as $benefit)
                                             <li class="flex items-center mb-4">
-                                                <svg class="w-6 h-6 text-customprimary-500 dark:text-white flex-shrink-0"
+                                                <svg class="w-6 h-6 text-customprimary-500  flex-shrink-0"
                                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                                                     height="24" fill="none" viewBox="0 0 24 24">
                                                     <path stroke="currentColor" stroke-linecap="round"
@@ -156,7 +156,7 @@
                                                         d="M5 11.917 9.724 16.5 19 7.5" />
                                                 </svg>
                                                 <span
-                                                    class="text-base font-normal leading-tight text-gray-900 dark:text-gray-400 ms-3">{{ $benefit }}</span>
+                                                    class="text-base font-normal leading-tight text-gray-900  ms-3">{{ $benefit }}</span>
                                             </li>
                                         @endforeach
                                     @else
@@ -173,17 +173,17 @@
     </section>
     {{-- END PRICING SECTION --}}
     {{-- HOW TO REGISTRATION SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3">
             <img class="hidden lg:block w-full rounded-lg" src="{{ asset('static/images/registration.png') }}"
                 alt="office content 1">
-            <div class="text-gray-500 sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-gray-500 sm:text-lg  col-span-2">
                 <h2
-                    class="mb-4 text-2xl lg:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-4 text-2xl lg:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 ">
                     Pendaftaran Agen</h2>
                 <img class="block lg:hidden px-20 py-6 w-full rounded-lg"
                     src="{{ asset('static/images/registration.png') }}" alt="office content 1">
-                <ul class="px-6 lg:px-0 list-decimal list-inside text-gray-900 dark:text-gray-400 space-y-1">
+                <ul class="px-6 lg:px-0 list-decimal list-inside text-gray-900  space-y-1">
                     <li class="flex items-start">
                         <span class="mr-2">1.</span>
                         Pertama-tama Anda perlu mengklik tombol "Daftar”
@@ -207,12 +207,12 @@
     </section>
     {{-- END HOW TO REGISTRATION SECTION --}}
     {{-- PARTNER SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full">
-            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white">
+            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900 ">
                 Partner Ekspedisi Kami
             </h2>
-            <p class="text-gray-900 text-base lg:text-xl dark:text-gray-400 text-center">
+            <p class="text-gray-900 text-base lg:text-xl  text-center">
                 Optimalkan Pengiriman Anda dengan Partner Ekspedisi Terpercaya!
             </p>
             <div class="hidden lg:flex flex-wrap justify-center gap-12 items-center mt-12 text-gray-500">
@@ -232,16 +232,16 @@
                 </div>
     
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-focus:ring-4 group-focus:ring-transparent  group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
                         </svg>
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
                 <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent   group-focus:ring-4 group-focus:ring-transparent  group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                         </svg>
                         <span class="sr-only">Next</span>
@@ -252,92 +252,92 @@
     </section>
     {{-- END PARTNER SECTION --}}
     {{-- BENEFIT SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full gap-8 mx-auto lg:gap-12 lg:grid lg:grid-cols-3 items-start">
             <h1
                 class="col-span-3 text-center text-2xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl mb-8">
                 Keuntungan Customer
             </h1>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg  p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit1.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500  flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-11 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-11 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 text-center lg:text-left">
                     Mendapatkan Dukungan dan
                     Bantuan</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-center lg:text-left">
                     Agen AmbilPaket juga akan mendapatkan dukungan dan bantuan dari tim AmbilPaket, berupa dukungan
                     pemasaran dan dukungan teknis.
                 </p>
             </div>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg  p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit2.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500 flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900  text-center lg:text-left">
                     Memperoleh Kemudahan dalam
                     Pengiriman</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-center lg:text-left">
                     Sebagai agen AmbilPaket, agen akan mendapatkan kemudahan dalam pengiriman, seperti akses ke teknologi
                     dan sistem manajemen pengiriman yang efektif.
                 </p>
             </div>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg  p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit3.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500  flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 text-center lg:text-left">
                     Memperluas Jaringan Bisnis
                 </h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-center lg:text-left">
                     Bergabung dengan AmbilPaket juga memberikan kesempatan bagi agen untuk memperluas jaringan bisnis dan
                     meningkatkan pelanggan bisnis Anda.
                 </p>
             </div>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit1.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500  flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 text-center lg:text-left">
                     Memperoleh Penghasilan
                     Tambahan</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-center lg:text-left">
                     Dengan menjadi agen AmbilPaket, anda bisa memperoleh penghasilan tambahan hingga puluhan juta rupiah
                     melalui komisi agen.
                 </p>
             </div>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg  p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit2.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500 flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900  text-center lg:text-left">
                     Mendapatkan Diskon
                 </h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-center lg:text-left">
                     Keuntungan menjadi agen AmbilPaket adalah memperoleh diskon penjualan yang cukup besar. Pelaku usaha
                     bakal memperoleh diskon hingga kisaran 35% dari total penjualan setiap bulannya
                 </p>
             </div>
-            <div class="bg-white rounded-lg dark:bg-gray-800 p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
+            <div class="bg-white rounded-lg  p-4 flex flex-col mb-6 lg:mb-0 lg:min-h-80">
                 <div class="flex lg:block justify-center items-center">
                     <img src="{{ asset('static/images/benefit3.png') }}" alt="Icon"
-                        class="w-16 h-16 mb-3 text-green-500 dark:text-green-400 flex-shrink-0" />
+                        class="w-16 h-16 mb-3 text-green-500 flex-shrink-0" />
                 </div>
                 <h2
-                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center lg:text-left">
+                    class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900  text-center lg:text-left">
                     Persyaratan Mudah dan
                     Biaya Terjangkau</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-center lg:text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-center lg:text-left">
                     Untuk menjadi agen dari AmbilPaket tidak perlu persyaratan yang terlalu rumit. Kamu cukup menyiapkan
                     beberapa dokumen yang dibutuhkan.
                 </p>

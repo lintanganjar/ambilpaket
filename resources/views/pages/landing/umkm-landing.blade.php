@@ -42,7 +42,7 @@
                 akses ke jaringan <br> pengiriman terpercaya di seluruh Indonesia.</p>
             <div class="flex flex-col space-y-4 mb-44 lg:justify-start sm:flex-row sm:justify-center sm:space-y-0">
                 <a href="#"
-                    class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    class="inline-flex justify-center items-center py-2 lg:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 ">
                     Daftar Sekarang
                 </a>
             </div>
@@ -50,7 +50,7 @@
     </section>
     {{-- END HERO SECTION --}}
     {{-- PROMO SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-20 xl:px-36 w-full text-left">
             <h1
                 class="mb-4 md:mb-10 text-2xl font-extrabold tracking-tight leading-none text-black md:text-4xl lg:text-5xl">
@@ -83,8 +83,8 @@
                     class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-prev>
                     <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-focus:ring-4 group-focus:ring-transparent  group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M5 1 1 5l4 4" />
@@ -96,8 +96,8 @@
                     class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-next>
                     <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-focus:ring-4 group-focus:ring-transparent  group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
@@ -110,11 +110,11 @@
     </section>
     {{-- END PROMO SECTION --}}
     {{-- HOW TO USE SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400">
+            <div class="text-gray-900 sm:text-lg ">
                 <h2
-                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-4 text-2xl md:text-4xl text-center font-extrabold tracking-tight text-gray-900 ">
                     Bagaimana
                     cara mengirim paket dengan AmbilPaket?</h2>
                 <p class="px-6 lg:px-0 text-center text-sm lg:text-lg">
@@ -126,35 +126,35 @@
     </section>
     {{-- END HOW TO USE SECTION --}}
     {{-- SERVICE SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3">
-            <div class="text-gray-500 sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-gray-500 sm:text-lg  col-span-2">
                 <h2
-                    class="mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 ">
                     Layanan Khusus untuk
                     Anda!</h2>
                 <img class="block lg:hidden px-20 mb-8 w-full rounded-lg" src="{{ asset('static/images/services.png') }}"
                     alt="office content 1">
 
-                <ul class="max-w-md px-6 lg:px-0 space-y-4 text-gray-900 list-inside dark:text-gray-400">
+                <ul class="max-w-md px-6 lg:px-0 space-y-4 text-gray-900 list-inside ">
                     <li class="flex items-center text-sm lg:text-lg">
                         <img src="{{ asset('static/images/li1.png') }}" alt="Icon"
-                            class="w-7 h-7 me-4 text-green-500 dark:text-green-400 flex-shrink-0" />
+                            class="w-7 h-7 me-4 text-green-500  flex-shrink-0" />
                         Kemudahan dalam Pengiriman
                     </li>
                     <li class="flex items-center text-sm lg:text-lg">
                         <img src="{{ asset('static/images/li2.png') }}" alt="Icon"
-                            class="w-7 h-7 me-4 text-green-500 dark:text-green-400 flex-shrink-0" />
+                            class="w-7 h-7 me-4 text-green-500  flex-shrink-0" />
                         Pelacakan Pengiriman
                     </li>
                     <li class="flex items-center text-sm lg:text-lg">
                         <img src="{{ asset('static/images/li3.png') }}" alt="Icon"
-                            class="w-7 h-7 me-4 text-green-500 dark:text-green-400 flex-shrink-0" />
+                            class="w-7 h-7 me-4 text-green-500  flex-shrink-0" />
                         Bebas Pilih Ekspedisi
                     </li>
                     <li class="flex items-center text-sm lg:text-lg">
                         <img src="{{ asset('static/images/li4.png') }}" alt="Icon"
-                            class="w-7 h-7 me-4 text-green-500 dark:text-green-400 flex-shrink-0" />
+                            class="w-7 h-7 me-4 text-green-500  flex-shrink-0" />
                         Pengiriman Seluruh Indonesia
                     </li>
                 </ul>
@@ -165,24 +165,24 @@
     </section>
     {{-- END SERVICE SECTION --}}
     {{-- TERMS REGISTRATION SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3">
             <img class="hidden lg:block w-full rounded-lg" src="{{ asset('static/images/terms.png') }}"
                 alt="office content 1">
-            <div class="text-gray-500 sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-gray-500 sm:text-lg  col-span-2">
                 <h2
-                    class="hidden lg:block mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="hidden lg:block mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 ">
                     Daftarkan Usaha Anda
                     dengan <br> Ketentuan Berikut</h2>
                 <h2
-                    class="block lg:hidden mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white">
+                    class="block lg:hidden mb-8 text-2xl md:text-4xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 ">
                     Daftarkan Usaha Anda
                     dengan Ketentuan Berikut</h2>
                 <img class="block lg:hidden px-20 mb-8 w-full rounded-lg" src="{{ asset('static/images/terms.png') }}"
                     alt="office content 1">
-                <ul class="max-w-md px-6 lg:px-0 space-y-4 text-gray-900 list-inside dark:text-gray-400">
+                <ul class="max-w-md px-6 lg:px-0 space-y-4 text-gray-900 list-inside ">
                     <li class="flex items-start lg:items-center">
-                        <svg class="w-5 h-5 me-4 text-customprimary-500 dark:text-customprimary-500 flex-shrink-0"
+                        <svg class="w-5 h-5 me-4 text-customprimary-500 flex-shrink-0"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 20">
                             <path
@@ -191,7 +191,7 @@
                         Usaha Resmi
                     </li>
                     <li class="flex items-start lg:items-center">
-                        <svg class="w-5 h-5 me-4 text-customprimary-500 dark:text-customprimary-500 flex-shrink-0"
+                        <svg class="w-5 h-5 me-4 text-customprimary-500  flex-shrink-0"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 20">
                             <path
@@ -200,7 +200,7 @@
                         Pengiriman Paket Rutin dan Terjadwal
                     </li>
                     <li class="flex items-start lg:items-center">
-                        <svg class="w-5 h-5 me-4 text-customprimary-500 dark:text-customprimary-500 flex-shrink-0"
+                        <svg class="w-5 h-5 me-4 text-customprimary-500  flex-shrink-0"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 20">
                             <path
@@ -209,7 +209,7 @@
                         Produk Sesuai dengan Kriteria yang Ditetapkan AmbilPaket.com
                     </li>
                     <li class="flex items-start lg:items-center">
-                        <svg class="w-5 h-5 me-4 text-customprimary-500 dark:text-customprimary-500 flex-shrink-0"
+                        <svg class="w-5 h-5 me-4 text-customprimary-500 flex-shrink-0"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 20">
                             <path
@@ -223,12 +223,12 @@
     </section>
     {{-- END TERMS REGISTRATION SECTION --}}
     {{-- PARTNER SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100 py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full">
-            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white">
+            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900 ">
                 Partner Ekspedisi Kami
             </h2>
-            <p class="text-gray-900 text-base lg:text-xl dark:text-gray-400 text-center">
+            <p class="text-gray-900 text-base lg:text-xl  text-center">
                 Optimalkan Pengiriman Anda dengan Partner Ekspedisi Terpercaya!
             </p>
             <div class="hidden lg:flex flex-wrap justify-center gap-12 items-center mt-12 text-gray-500">
@@ -248,16 +248,16 @@
                 </div>
     
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-focus:ring-4 group-focus:ring-transparent group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
                         </svg>
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
                 <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-focus:ring-4 group-focus:ring-transparent group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                         </svg>
                         <span class="sr-only">Next</span>
@@ -268,9 +268,9 @@
     </section>
     {{-- END PARTNER SECTION --}}
     {{-- CONTACT SECTION --}}
-    <section class="bg-gradient-to-r from-[#FA523D] to-[#35383A] dark:bg-gray-900 mt-16 py-6 lg:py-16">
+    <section class="bg-gradient-to-r from-[#FA523D] to-[#35383A]  mt-16 py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3">
-            <div class="text-white sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-white sm:text-lg col-span-2">
                 <h2 class="mb-8 text-2xl md:text-4xl text-left font-extrabold tracking-normal text-white">Perluas Bisnismu
                     dan
                     Tingkatkan Pengalaman Pengiriman dengan AmbilPaket!</h2>
@@ -284,7 +284,7 @@
                 </p>
                 <div class="flex flex-col space-y-4 mt-6 lg:justify-start sm:flex-row sm:justify-center sm:space-y-0">
                     <a href="#"
-                        class="inline-flex justify-center items-center py-2 lg:py-3 px-7 text-base font-semibold text-center text-customprimary-500 rounded-lg bg-white hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        class="inline-flex justify-center items-center py-2 lg:py-3 px-7 text-base font-semibold text-center text-customprimary-500 rounded-lg bg-white hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 ">
                         <svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path

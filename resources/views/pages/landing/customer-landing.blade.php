@@ -52,7 +52,7 @@
                                 </svg>
                             </div>
                             <input type="text" id="origin-city-search"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 "
                                 placeholder="Kota/Kecamatan/Kelurahan" required />
                         </div>
                         <label for="destination-city-search" class="sr-only">Destination City Search</label>
@@ -66,18 +66,18 @@
                                 </svg>
                             </div>
                             <input type="text" id="destination-city-search"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  "
                                 placeholder="Kota/Kecamatan/Kelurahan" required />
                         </div>
                         <label for="weight-search" class="sr-only">Weight</label>
                         <div class="relative col-span-2">
                             <input type="text" id="weight-search"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-5 p-2.5  "
                                 placeholder="0.00/Kg" required />
                         </div>
                         <div class="relative col-span-2">
                             <button type="submit"
-                                class="p-2.5 w-full text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                class="p-2.5 w-full text-sm font-medium text-white bg-customprimary-500 rounded-lg border border-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                 Cek harga
                             </button>
                         </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:justify-start" data-aos="fade-right" data-aos-duration="500">
                     <a href="#"
-                        class="inline-flex justify-center items-center py-2 md:py-3 px-5 text-sm lg:text-base font-normal text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 dark:focus:ring-blue-900 animate-slide-in-left">
+                        class="inline-flex justify-center items-center py-2 md:py-3 px-5 text-sm lg:text-base font-normal text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 animate-slide-in-left">
                         <svg class="w-5 h-5 lg:w-6 lg:h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -124,7 +124,7 @@
 
     {{-- END HERO SECTION --}}
     {{-- PROMO SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-20 xl:px-36 w-full text-left">
             <h1
                 class="mb-4 md:mb-10 text-2xl font-extrabold tracking-tight leading-none text-black md:text-4xl lg:text-5xl" data-aos="fade-right" data-aos-duration="500">
@@ -157,8 +157,8 @@
                     class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-prev>
                     <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-focus:ring-4 group-focus:ring-transparent  group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M5 1 1 5l4 4" />
@@ -170,8 +170,8 @@
                     class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-next>
                     <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-focus:ring-4 group-focus:ring-transparent group-focus:outline-none">
+                        <svg class="w-4 h-4 text-transparent  rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
@@ -184,13 +184,13 @@
     </section>
     {{-- END PROMO SECTION --}}
     {{-- WHY SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="items-center px-6 md:px-12 lg:px-20 xl:px-36 w-full gap-16 mx-auto lg:grid lg:grid-cols-3 ">
             <img class="hidden lg:block w-full rounded-lg" data-aos="fade-right" data-aos-duration="500" src="{{ asset('static/images/WhyAmbilPaket.png') }}"
                 alt="office content 1">
-            <div class="text-gray-900 sm:text-lg dark:text-gray-400 col-span-2">
+            <div class="text-gray-900 sm:text-lg col-span-2">
                 <h2
-                    class="mb-4 text-2xl md:text-4xl lg:text-5xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 dark:text-white" data-aos="fade-left" data-aos-duration="500">
+                    class="mb-4 text-2xl md:text-4xl lg:text-5xl text-center lg:text-left font-extrabold tracking-tight text-gray-900 " data-aos="fade-left" data-aos-duration="500">
                     Kenapa Harus
                     AmbilPaket?</h2>
                 <div class="block lg:hidden mx-12" data-aos="fade-down" data-aos-duration="500">
@@ -209,7 +209,7 @@
                     kami terima sehingga kamu tidak perlu khawatir tentang kerusakan atau kehilangan paket. </p>
                 <div class="flex flex-col space-y-4 mt-6 lg:justify-start sm:flex-row sm:justify-center sm:space-y-0" data-aos="fade-left" data-aos-duration="500">
                     <a href="#"
-                        class="inline-flex justify-center items-center py-2 md:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        class="inline-flex justify-center items-center py-2 md:py-3 px-5 text-base font-notmal text-center text-white rounded-lg bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-blue-300 ">
                         Daftar Sekarang!
                     </a>
                 </div>
@@ -218,59 +218,59 @@
     </section>
     {{-- END WHY SECTION --}}
     {{-- BENEFIT SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100 py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full gap-8 mx-auto lg:gap-12 lg:grid lg:grid-cols-3 items-start">
             <h1
                 class="col-span-3 text-center text-2xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl mb-8" data-aos="fade-down" data-aos-duration="500">
                 Keuntungan Customer
             </h1>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Aman
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Aman
                     Terjamin</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Kami menyediakan layanan pengiriman dengan asuransi sehingga paketmu akan terlindungi dengan baik.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pengiriman
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Pengiriman
                     Cepat</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Kami menyediakan opsi pengiriman dengan waktu yang lebih cepat untuk kamu yang membutuhkan pengiriman
                     segera.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pengiriman
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Pengiriman
                     Dapat
                     Dilacak</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Kami menyediakan opsi pengiriman yang dapat dilacak sehingga kamu dapat mengetahui status pengiriman
                     paketmu dengan mudah dan cepat.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mendapatkan
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Mendapatkan
                     Poin</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Dapatkan poin setiap pembelianmu dan nikmati keuntungan eksklusif! Belanja lebih, hemat lebih. Raih
                     poin, rasakan keistimewaannya.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jangkauan
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Jangkauan
                     Nasional
                 </h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Layanan ini menawarkan jangkauan yang luas, mencakup seluruh wilayah Indonesia. Dengan demikian,
                     pelanggan dapat mengirim dan menerima paket dari dan ke hampir setiap sudut negeri tanpa batasan
                     geografis.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pilihan
+            <div class="rounded-lg flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900">Pilihan
                     Layanan yang
                     Beragam</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Layanan pengiriman ini seringkali menyediakan berbagai pilihan layanan, mulai dari pengiriman kilat
                     untuk keperluan mendesak hingga opsi pengiriman ekonomis untuk pengiriman dengan anggaran terbatas. Ini
                     memberikan fleksibilitas kepada pelanggan untuk memilih layanan yang paling sesuai dengan kebutuhan dan
@@ -279,14 +279,15 @@
             </div>
         </div>
     </section>
+
     {{-- END BENEFIT SECTION --}}
     {{-- PARTNER SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100 py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full">
-            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900 dark:text-white" data-aos="fade-down" data-aos-duration="500">
+            <h2 class="mb-3 text-2xl lg:text-6xl text-center font-extrabold tracking-tight text-gray-900" data-aos="fade-down" data-aos-duration="500">
                 Partner Ekspedisi Kami
             </h2>
-            <p class="text-gray-900 text-base lg:text-xl dark:text-gray-400 text-center" data-aos="fade-down" data-aos-duration="500">
+            <p class="text-gray-900 text-base lg:text-xl text-center" data-aos="fade-down" data-aos-duration="500">
                 Optimalkan Pengiriman Anda dengan Partner Ekspedisi Terpercaya!
             </p>
             <div class="hidden lg:flex flex-wrap justify-center gap-12 items-center mt-12 text-gray-500">
@@ -297,8 +298,7 @@
                 @endforeach
             </div>
             <div id="default-carousel" class="block lg:hidden relative w-full mt-12" data-carousel="slide" data-aos="fade-left" data-aos-duration="500">
-                <div
-                    class="relative overflow-hidden rounded-lg h-20 md:h-64 lg:h-72 xl:h-96 flex items-center justify-center">
+                <div class="relative overflow-hidden rounded-lg h-20 md:h-64 lg:h-72 xl:h-96 flex items-center justify-center">
                     @foreach ($providerList as $provider)
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <img src="{{ $provider->logo }}" class="mx-auto block w-auto max-h-full object-contain"
@@ -306,13 +306,12 @@
                         </div>
                     @endforeach
                 </div>
-
+    
                 <button type="button"
                     class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-prev>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-focus:ring-4 group-focus:ring-transparent group-focus:outline-none">
+                        <svg class="w-4 h-4 text-gray-800 rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M5 1 1 5l4 4" />
@@ -323,9 +322,8 @@
                 <button type="button"
                     class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-next>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-transparent dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-transparent dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent group-focus:ring-4 group-focus:ring-transparent group-focus:outline-none">
+                        <svg class="w-4 h-4 text-gray-800 rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="m1 9 4-4-4-4" />
@@ -336,66 +334,67 @@
             </div>
         </div>
     </section>
+    
     {{-- END PARTNER SECTION --}}
     {{-- FAQ SECTION --}}
-    <section class="bg-gray-100 dark:bg-gray-900 py-6 lg:py-16">
+    <section class="bg-gray-100  py-6 lg:py-16">
         <div class="px-6 md:px-12 lg:px-36 w-full gap-8 mx-auto lg:gap-12 lg:grid lg:grid-cols-3 items-start">
             <h1
                 class="col-span-3 text-center text-2xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl mb-8" data-aos="fade-down" data-aos-duration="500">
                 Pertanyaan Anda
             </h1>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
-                <h2 class="lg:mb-11 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apa itu
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
+                <h2 class="lg:mb-11 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Apa itu
                     AmbilPaket.com?</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-left">
                     Platform penjemputan dan pengiriman logistik yang berfokus pada menyediakan layanan jemputan dan
                     mengantarkan paket dengan mudah, cepat, dan aman.
 
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mengapa
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Mengapa
                     harus
                     menggunakan AmbilPaket.com?</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left" data-aos="fade-left" data-aos-duration="500">
+                <p class="text-gray-500  text-sm lg:text-base text-left" data-aos="fade-left" data-aos-duration="500">
                     Dengan menggunakan jasa AmbilPaket kami, kamu akan merasa lebih aman dan terjamin dalam pengiriman
                     paket.
 
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apa saja
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Apa saja
                     keuntungan
                     pakai AmbilPaket.com?</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-left">
                     Kami menyediakan layanan pengiriman dengan asuransi sehingga paketmu akan terlindungi dengan baik.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bagaimana
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="fade-right" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Bagaimana
                     mencetak
                     label atau resi?</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500 text-sm lg:text-base text-left">
                     Cara mencetak label atau resi adalah dengan menggunakan printer label, memastikan perangkat lunak
                     terinstal, lalu pilih opsi "Cetak" dan sesuaikan pengaturan sebelum mencetak.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Panduan
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="zoom-in" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Panduan
                     penggunaan
                     AmbilPaket.com?
                 </h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-left">
                     Kirim paket dengan mudah melalui platform
                     AmbilPaket. Daftar sebagai pengirim, pilih agen terdekat, isi alamat penerima, dan lakukan pembayaran.
                     Paket akan diambil dan dikirim dengan aman dan cepat.
                 </p>
             </div>
-            <div class="rounded-lg dark:bg-gray-800  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
-                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bagaimana
+            <div class="rounded-lg  flex flex-col mb-4 lg:mb-0" data-aos="fade-left" data-aos-duration="500">
+                <h2 class="lg:mb-3 text-lg lg:text-2xl font-bold tracking-tight text-gray-900 ">Bagaimana
                     cara daftar
                     menjadi agen di AmbilPaket.com?</h2>
-                <p class="text-gray-500 dark:text-gray-400 text-sm lg:text-base text-left">
+                <p class="text-gray-500  text-sm lg:text-base text-left">
                     Pertama-tama, klik tombol "Daftar," pilih opsi "Agen," isi formulir pendaftaran, pilih paket yang
                     sesuai, dan tunggu konfirmasi setelah verifikasi data untuk menjadi agen.
                 </p>
