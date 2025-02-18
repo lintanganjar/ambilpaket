@@ -1,8 +1,8 @@
-<nav class="fixed z-50 w-full bg-white border-gray-200 px-4 lg:px-6 py-6 dark:bg-gray-800">
+<nav class="fixed z-50 w-full bg-white border-gray-200 px-4 lg:px-6 py-6 ">
     <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
         <a href="" class="flex items-center">
             <img src="{{ asset('static/images/ambilpaket.png') }}" class="mr-1 h-10" alt="AmbilPaket Logo" />
-            <span class="text-base font-extrabold whitespace-nowrap text-customprimary-500 dark:text-white uppercase">
+            <span class="text-base font-extrabold whitespace-nowrap text-customprimary-500  uppercase">
                 AmbilPaket
             </span>
         </a>
@@ -10,18 +10,18 @@
             <!-- Menu Desktop -->
             <div class="hidden lg:flex space-x-4">
                 <a href="{{ route('auth') }}"
-                    class="text-white bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-customprimary-500 dark:hover:bg-customprimary-700 focus:outline-none dark:focus:ring-customprimary-900">
+                    class="text-white bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 ">
                     Masuk
                 </a>
                 <a href=""
-                    class="text-customprimary-500 hover:text-white dark:text-white hover:bg-customprimary-500 focus:ring-4 ring-1 ring-customprimary-500 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
+                    class="text-customprimary-500 hover:text-white  hover:bg-customprimary-500 focus:ring-4 ring-1 ring-customprimary-500 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 ">
                     Daftar
                 </a>
             </div>
 
             <!-- Button untuk menu mobile -->
             <button data-collapse-toggle="mobile-menu-2" type="button"
-                class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
                 aria-controls="mobile-menu-2" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -57,13 +57,13 @@
                 <div class="flex flex-col lg:hidden space-y-4 mt-3 w-full">
                     <li class="w-full">
                         <a href=""
-                            class="block w-full text-center text-customprimary-500 hover:text-white dark:text-white hover:bg-customprimary-500 focus:ring-4 ring-1 ring-customprimary-500 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
+                            class="block w-full text-center text-customprimary-500 hover:text-white  hover:bg-customprimary-500 focus:ring-4 ring-1 ring-customprimary-500 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none ">
                             Daftar
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('auth') }}"
-                            class="block w-full text-center text-white bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-customprimary-500 dark:hover:bg-customprimary-700 focus:outline-none dark:focus:ring-customprimary-900">
+                            class="block w-full text-center text-white bg-customprimary-500 hover:bg-customprimary-700 focus:ring-4 focus:ring-customprimary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 0 focus:outline-none ">
                             Masuk
                         </a>
                     </li>
