@@ -1,11 +1,11 @@
-<footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
+<footer class="p-4 bg-white sm:p-6 ">
     <div class="max-w-screen-xl mx-auto">
         <div class="flex items-center">
             <!-- Logo di kiri -->
             <div class="mb-6 md:mb-0 flex items-center">
                 <a href="#" class="flex flex-col items-center text-center">
                     <img src="{{ asset('static/images/ambilpaket.png') }}" class="h-48 mb-2" alt="AmbilPaket Logo" />
-                    <span class="text-2xl font-black whitespace-nowrap text-customprimary-500 dark:text-white uppercase">
+                    <span class="text-2xl font-black whitespace-nowrap text-customprimary-500  uppercase">
                         AmbilPaket.com
                     </span>
                 </a>
@@ -13,8 +13,8 @@
 
             <div class="grid grid-cols-4 gap-8 px-4 py-6 lg:py-8">
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Company</h2>
+                    <ul class="text-gray-500  font-medium">
                         <li class="mb-4">
                             <a href="#" class=" hover:underline">About</a>
                         </li>
@@ -30,8 +30,8 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Help center</h2>
+                    <ul class="text-gray-500font-medium">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">Discord Server</a>
                         </li>
@@ -47,8 +47,8 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Legal</h2>
+                    <ul class="text-gray-500  font-medium">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">Privacy Policy</a>
                         </li>
@@ -61,8 +61,8 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Download</h2>
+                    <ul class="text-gray-500  font-medium">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">iOS</a>
                         </li>
@@ -79,58 +79,14 @@
                 </div>
             </div>
 
-            {{-- <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Layanan Kami</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Ekonomi</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Regular</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Express</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Cargo</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Service</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Personal</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">UMKM</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Agen</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Customer Care</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">About</a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div> --}}
+        
         </div>
     </div>
 
 
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com"
+        <span class="text-sm text-gray-500 sm:text-center ">© 2022 <a href="https://flowbite.com"
                 class="hover:underline">Flowbite™</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
